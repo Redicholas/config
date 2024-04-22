@@ -1,0 +1,65 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "cmd+o",
+    "command": "projectManager.listGitProjects#sideBarGit"
+  },
+  {
+    "key": "alt+f",
+    "command": "fuzzySearch.activeTextEditor"
+  },
+  {
+    "command": "editor.action.goToDeclaration",
+    "key": "cmd+shift+alt+ctrl+o"
+  },
+  {
+    "command": "workbench.action.navigateBack",
+    "key": "cmd+shift+alt+ctrl+i"
+  },
+  {
+    "key": "cmd+shift+ctrl+alt+u",
+    "command": "expand_region",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+ctrl+alt+y",
+    "command": "undo_expand_region",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "key": "cmd+i",
+    "command": "turboConsoleLog.displayLogMessage"
+  },
+  {
+    "key": "shift+cmd+u",
+    "command": "aiInterface.new"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "-aiInterface.new"
+  },
+  {
+    "key": "cmd+l cmd+o",
+    "command": "-extension.liveServer.goOnline",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+l cmd+c",
+    "command": "-extension.liveServer.goOffline",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "aichat.close-sidebar"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "workbench.action.toggleZenMode",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  },
+  {
+    "key": "cmd+r z",
+    "command": "-workbench.action.toggleZenMode",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  }
+]

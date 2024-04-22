@@ -1,0 +1,106 @@
+{
+  "workbench.colorTheme": "Calming Theme",
+  "workbench.iconTheme": "catppuccin-macchiato",
+  "vsicons.dontShowNewVersionMessage": true,
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
+  "editor.renderWhitespace": "none",
+  "editor.scrollbar.vertical": "auto",
+  "editor.scrollbar.verticalScrollbarSize": 20,
+  "editor.mouseWheelScrollSensitivity": 0.6,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "editor.autoClosingBrackets": "beforeWhitespace",
+  "editor.inlayHints.enabled": "off",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.formatOnSave": true,
+  "editor.minimap.size": "fit",
+  "editor.fontSize": 15,
+  "editor.stickyScroll.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.insertMode": "replace",
+  "editor.cursorSurroundingLines": 18,
+
+  "workbench.editor.showTabs": "none",
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorCustomizations": {
+    // "editor.selectionHighlightBackground": "#c9d3c741",
+    // "editor.occurrencesHighlight": "#d88b9892",
+    // "editor.wordHighlightBackground": "#d2ecd22f",
+    // "editor.wordHighlightStrongBackground": "#65d2655a",
+    "editor.wordHighlightStrongBorder": "#98539e"
+    // "editor.wordHighlightBorder": "#ff0000bc",
+    // "editor.lineHighlightBackground": "#1073cf2d",
+    // "editor.lineHighlightBorder": "#9fced11f"
+  },
+
+  "zenMode.hideLineNumbers": false,
+  "zenMode.showTabs": "none",
+
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "projectManager.git.baseFolders": ["$home/connectel", "$home/repos"],
+  "projectManager.sortList": "Recent",
+
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.showOutputWindowOn": "Warning",
+  "liveServer.settings.donotVerifyTags": true,
+
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": null,
+      "savePathReplacementPairs": null
+    }
+  ],
+  "git.ignoreRebaseWarning": true,
+  "explorer.confirmDelete": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.scale": 1,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "html.autoCreateQuotes": false,
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.views.branches.branches.layout": "list",
+  "diffEditor.wordWrap": "off",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput", "yaml"],
+  "breadcrumbs.enabled": false,
+  "go.toolsManagement.autoUpdate": true,
+  "window.zoomPerWindow": false,
+  "window.commandCenter": false,
+  "remoteHub.commitDirectlyWarning": "off",
+  "svelte.enable-ts-plugin": true,
+  "window.zoomLevel": 1
+}
