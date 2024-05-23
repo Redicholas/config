@@ -1,11 +1,12 @@
 {
   "workbench.colorTheme": "Calming Theme",
-  "workbench.iconTheme": "catppuccin-macchiato",
+  "workbench.iconTheme": "catppuccin-frappe",
+  "workbench.sideBar.location": "left",
   "vsicons.dontShowNewVersionMessage": true,
 
   "git.autofetch": true,
   "git.confirmSync": false,
-  "git.enableSmartCommit": true,
+  "git.enableSmartCommit": false,
 
   "editor.renderWhitespace": "none",
   "editor.scrollbar.vertical": "auto",
@@ -25,13 +26,17 @@
   "editor.inlineSuggest.enabled": true,
   "editor.suggest.insertMode": "replace",
   "editor.cursorSurroundingLines": 18,
+  "editor.folding": false,
+  "editor.snippetSuggestions": "top",
 
   "workbench.editor.showTabs": "none",
   "workbench.layoutControl.enabled": false,
   "workbench.colorCustomizations": {
-    // "editor.selectionHighlightBackground": "#c9d3c741",
+    "inputOption.activeBorder": "#ff0000",
+    "editor.selectionHighlightBackground": "#c9d3c741",
+    "editor.selectionHighlightBorder": "#2bff0034",
     // "editor.occurrencesHighlight": "#d88b9892",
-    // "editor.wordHighlightBackground": "#d2ecd22f",
+    // "editor.wordHighlightBackground": "#d8ead82f",
     // "editor.wordHighlightStrongBackground": "#65d2655a",
     "editor.wordHighlightStrongBorder": "#98539e"
     // "editor.wordHighlightBorder": "#ff0000bc",
@@ -102,5 +107,6 @@
   "window.commandCenter": false,
   "remoteHub.commitDirectlyWarning": "off",
   "svelte.enable-ts-plugin": true,
-  "window.zoomLevel": 1
+  "editor.accessibilitySupport": "off",
+  "prisma.showPrismaDataPlatformNotification": false
 }

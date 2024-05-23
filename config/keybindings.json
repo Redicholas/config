@@ -1,15 +1,27 @@
 [
   {
-    "key": "cmd+o",
+    "key": "cmd+shift+o",
     "command": "projectManager.listGitProjects#sideBarGit"
   },
   {
-    "key": "alt+f",
+    "key": "cmd+f",
     "command": "fuzzySearch.activeTextEditor"
+  },
+  {
+    "key": "alt+f",
+    "command": "actions.find"
+  },
+  {
+    "key": "cmd+shift+alt+ctrl+7",
+    "command": "editor.action.commentLine"
   },
   {
     "command": "editor.action.goToDeclaration",
     "key": "cmd+shift+alt+ctrl+o"
+  },
+  {
+    "key": "cmd+shift+alt+ctrl+q",
+    "command": "editor.action.goToReferences"
   },
   {
     "command": "workbench.action.navigateBack",
@@ -38,8 +50,26 @@
     "command": "aichat.close-sidebar"
   },
   {
-    "key": "ctrl+z",
+    "key": "alt+z",
     "command": "workbench.action.toggleZenMode",
     "when": "!isAuxiliaryWindowFocusedContext"
+  },
+  {
+    "key": "ctrl+shift+alt+q",
+    "command": "editor.action.goToReferences",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "shift+f12",
+    "command": "-editor.action.goToReferences",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "cmd+o",
+    "command": "git.checkout"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "workbench.action.experimental.quickTextSearch"
   }
 ]
